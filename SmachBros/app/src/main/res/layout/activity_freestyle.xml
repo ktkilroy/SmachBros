@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:fillViewport="false"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+
+        <ImageView
+            android:id="@+id/freestyle"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginBottom="30dp"
+            android:padding="15dp"
+            app:srcCompat="@drawable/freestyle" />
+
+        <NumberPicker
+            android:id="@+id/np"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/distance"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/hint_distance"/>
+
+        <ImageButton
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="116dp"
+            android:background="@drawable/button_btn"
+            android:onClick="onSubmitClicked"
+            android:padding="20dp"
+            app:srcCompat="@drawable/add" />
+        <ImageView
+            android:id="@+id/plan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            app:srcCompat="@drawable/plan" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="76dp"
+            android:background="@color/background_white"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

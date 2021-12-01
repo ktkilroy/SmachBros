@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Smach Bros</string>
+    <string name="bros">Bros</string>
+    <string name="smach">Smach</string>
+    <string name="freestyle">Freestyle</string>
+    <string name="mission">Mission</string>
+    <string name="select" />
+    <string name="your" />
+    <string name="level" />
+    <string name="start">Start</string>
+    <string name="distance">Distance (m):</string>
+    <string name="moves_prompt">Add Mission Commands</string>
+    <string name="select_a_move">Select a Move...</string>
+    <string name="hint_distance">How far will Yoshi go?</string>
+    <string-array name="moves">
+        <item>Forward</item>
+        <item>Reverse</item>
+        <item>Right</item>
+        <item>Left</item>
+        <item>Stop</item>
+        <item>Flip</item>
+    </string-array>
+</resources>
